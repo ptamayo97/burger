@@ -1,15 +1,9 @@
 USE burgers_db;
 
-INSERT INTO burgers (burger_name, devoured)
+INSERT INTO burgers (burger_name)
 
 VALUES 
-("hamburger", false),
-("cheeseburger", true),
-("double cheeseburger", false);
+("hamburger"),
+("cheeseburger"),
+("double cheeseburger");
 
--- SELECT 
---     id, 
---     burger_name, 
---     IF(devoured, 'true', 'false') devoured
--- FROM
---     burgers;
